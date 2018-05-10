@@ -1,0 +1,122 @@
+body{
+  background-color: #000;
+}
+
+.mainPanel{
+  margin:0 auto;
+}
+
+.container {
+    width: 320px;
+    padding: 12px;
+}
+
+body {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    outline: none !important;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#display1 {
+  background: transparent;
+  font-family: sans-serif;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  height: 70px;
+}
+
+#display2 {
+  background: transparent;
+}
+
+.button-row {
+    margin-top: 12px;
+}
+
+form {
+    width: 294px;
+    border-radius: .25rem;
+}
+
+form input {
+    border: none;
+    width: 294px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container-light {
+  box-shadow:0 0 10px #fff;
+  transition: 0.5s all ease;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.form-light {
+    background-color: #000;
+}
+
+.form-input-light {
+    color: #fff;
+}
+
+.operand-group-light {
+    background-color: #333333;
+    color: #fff;
+}
+
+.operand-group-light:hover {
+    background-color: #222222;
+}
+
+.operand-group-light:active {
+    background-color: #607d8b;
+    top: 3px;
+}
+
+.operator-group-light {
+    background-color: #ff9501;
+    color: #ffffff;
+}
+
+.operator-group-light:hover {
+    background-color: #faab3d;
+}
+
+.clear-light {
+    background-color: #a6a6a6;
+    color: #000;
+}
+
+.clear-light:hover {
+    background-color: #fff;
+}
+
+.ans-light, .backspace-light {
+    background-color: #a6a6a6;
+    color: #000;
+}
+
+.ans-light:hover, .backspace-light:hover {
+    background-color: #fff;
+}
+
+#zero{
+  width:140px;
+  border-radius: 65px;
+}
